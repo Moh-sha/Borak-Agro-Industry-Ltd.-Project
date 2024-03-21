@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Borak </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/borak logo.png" rel="icon">
+  <link href="assets/img/borak logo.png" rel="apple-touch-icon">
+   
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var slider = document.getElementById("slider");
+      var slides = slider.getElementsByClassName("slide");
+      var currentSlide = 0;
+  
+      function nextSlide() {
+        slides[currentSlide].classList.remove("active");
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add("active");
+      }
+  
+      // Call nextSlide initially to start the slideshow
+      nextSlide();
+  
+      // Set interval to call nextSlide every 5 seconds
+      setInterval(nextSlide, 2000); // Change slide every 5 seconds (adjust as needed)
+    });
+  </script>
+  
+  
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Amoeba - v4.6.0
+  * Template URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html" style="display: flex; align-items: center;"><img src="assets/img/borak logo.png" alt="" class="img-fluid" style="margin-right: 10px;">Borak Agro Industries Ltd.</a></h1>
+
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+        <!--- <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li> -->
+          <li><a class="nav-link scrollto" href="#team">Our Team</a></li>
+        
+          
+           
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End #header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to Borak Agro Industries Ltd.</h1>
+      <h2>One of the top producers of agricultural goods with a focus on cultivation is Agro Farm Industries Ltd. in Bangladesh</h2>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+  
+
+    
+
+    <!-- ======= Services Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 order-lg-1">
+            <div class="about-text">
+              <h3>Welcome to Agro Farm Industries Ltd. : Empowering Bangladesh's Agricultural Landscape</h3>
+              <p class="fst-italic">
+                Our agricultural endeavors encompass a diverse range of activities, from vegetable cultivation to crop production, aimed at meeting the nutritional needs of our nation. Through innovative techniques and a focus on quality, we strive to deliver fresh and nutritious produce to markets nationwide. In addition to our agricultural pursuits, we are proud to operate state-of-the-art cow farms that prioritize the well-being of our livestock. From dairy to meat production, we uphold the highest standards of animal welfare and hygiene, ensuring that our products are of the finest quality. At Agro Farm Industries Ltd., we believe in the power of sustainable agriculture to drive positive change in our communities and beyond. Join us as we continue to empower Bangladesh's agricultural and cow farming landscape, one harvest at a time.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2">
+            <div class="image-slider">
+              <div class="slider" id="slider">
+                <div class="slide"><img src="assets/img/Slide_1.jpg" alt="Slide 1"></div>
+                <div class="slide"><img src="assets/img/Slide_2.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="assets/img/Slide_3.jpg" alt="Slide 3"></div>
+                <div class="slide"><img src="assets/img/Slide_4.jpg" alt="Slide 3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- End Services Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>"Boroak Agro Industries Ltd. offers a comprehensive agricultural service catering to diverse customer needs, including dairy, egg, and vegetable production. With a commitment to excellence, we deliver premium-quality products cultivated through sustainable practices. Experience reliability and freshness with our integrated agricultural solutions, ensuring satisfaction for every customer."</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon">
+              <img src="./assets/img/Screenshot 2024-03-04 142412.png" style="width: 60px; height: 60px"; alt="" srcset="">
+            </div>
+            <h4 class="title">Cow Cattle</a></h4>
+            <p class="description">Your premier source for high-quality livestock, specializing in breeding, rearing, and management for premium dairy and meat products</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div> 
+              <img src="./assets/img/Screenshot 2024-03-04 142827.png" style="width: 70px; height: 70px"; alt="" srcset="">
+            </div>
+            <h4 class="title">Fishing Farm</a></h4>
+            <p class="description">Providing guided fishing excursions for enthusiasts of all skill levels, our service offers personalized experiences in prime fishing locations. With expert guides and top-notch equipment, we ensure unforgettable adventures and successful catches.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><img src="./assets/img/images.png"  style="width: 50px; height: 50px"; alt="" srcset=""></div>
+            <h4 class="title">Vegetable Production</a></h4>
+            <p class="description">Transforming agriculture, our integrated service produces premium vegetables and provides custom feeding solutions for optimal growth. We prioritize sustainability and quality, ensuring our customers receive fresh, nutritious produce while minimizing environmental impact. Experience innovation and excellence in every harvest with our vegetable production and feeding service</p>
+          </div>
+         
+         
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Call To Action Section =======     <section class="call-to-action">
+      <div class="container">
+
+        <div class="text-center">
+          <h3>Summary</h3>
+          <p> 
+            "Boroak Agro Industries Ltd. provides integrated agricultural solutions, offering premium-quality dairy, egg, and vegetable products cultivated sustainably."</p>
+          <a class="cta-btn" href="#">Home page</a>
+        </div>
+
+      </div>
+    </section> End Call To Action Section -->
+
+    <!----
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Portfolio</h2>
+        </div>
+
+       
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">App 1</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3">Web 3</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2">App 2</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2">Card 2</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2">Web 2</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3">App 3</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1">Card 1</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3">Card 3</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1">Web 1</a></h3>
+                <div>
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> End Our Portfolio Section -->
+
+    
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Team</h2>
+          <p>
+            "At Borak Agro Industries Ltd., our dedicated teams are comprised of passionate professionals committed to excellence in every aspect of agricultural production and service delivery. With expertise spanning dairy, egg, and vegetable cultivation, our teams work collaboratively to ensure the highest standards of quality, sustainability, and customer satisfaction."</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/team/Director.jpeg" alt="">
+              <h4>Faruk Ahmed</h4>
+              <span>Chairman & Managing Director </span>
+              <p>Contact no : +8800132286556</p>
+              
+              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/team/romendro.jpeg" alt="">
+              <h4>Romendra Kumar Das</h4>
+              <span>Director</span>
+              <p>Contact no : +8801322836557, +8801712957545</p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/team/ramendra.jpeg" alt="">
+             
+              <h4>Ramandra Kumar Shingha</h4>
+              <span>Director</span>
+              <p>Contact no :+8801322836559</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="assets/img/team/1709119900126_1709119895088_2+2 (1).jpg" alt="">
+              <h4>Ayon Das</h4>
+              <span>Manager (Quality Control & Assurance) </span>
+              <p> Borak Fishery, A Project of Borak Agro. Industries Ltd .</p> 
+  
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>"For inquiries or collaboration opportunities, please reach out to us at Borak Agro Industries Ltd. Our dedicated team is ready to assist you in accessing our premium agricultural products and services. Contact us today to embark on a journey towards sustainable and high-quality farming solutions."</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="contact-about">
+              <h4>Borak Agro Industries Ltd.</h4>
+              <p>
+                "Borak Agro Industries Ltd. provides integrated agricultural solutions, offering premium-quality dairy fish, and vegetable products cultivated sustainably."</p>
+              <div class="social-links">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info">
+              <div>
+                <i class="bi bi-geo-alt"></i>
+                <p>Borak Agro , Rikabibazar<br> Sylhet Stadium Gate No:02</p>
+              </div>
+
+              <div>
+                <i class="bi bi-envelope"></i>
+                <p>borakagroindustries@gmail.com</p>
+              </div>
+              <div>
+                <i class="bi bi-envelope"></i>
+                <p> 
+                  borakagro@borakagro.com</p>
+              </div>
+             
+
+              <div>
+                <i class="bi bi-phone"></i>
+                <p>Mobile No : 01322836559</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Us Section -->
+
+    <!-- ======= Map Section ======= -->
+    <section class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.9781628500104!2d91.85689367834158!3d24.898726486775526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3750552e07852ded%3A0x48ce8bf77bc9d8c8!2sRikabi%20Bazar%20Rd%2C%20Sylhet!5e0!3m2!1sen!2sbd!4v1709542769743!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section><!-- End Map Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>I-Press</span></strong>. All Rights Reserved
+      </div>
+    
+    </div>
+  </footer><!-- End #footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
